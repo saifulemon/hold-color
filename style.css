@@ -1,0 +1,44 @@
+/* google fonts import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Rubik:wght@300&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.popup {
+    width: 350px;
+}
+
+.popup :where(.picker, header) {
+    display: flex;
+    align-items: center;
+}
+
+.popup .picker {
+    padding: 30px 0;
+    display: flex;
+    justify-content: center;
+    background-color: #e3f2fd;
+}
+
+.picker #color-picker {
+    outline: none;
+    border: none;
+    color: #fff;
+    font-size: 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    padding: 10px 20px;
+    background: #667a04;
+}
+
